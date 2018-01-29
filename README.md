@@ -7,7 +7,7 @@ Send [kubernetes](https://github.com/kubernetes/kubernetes) logs to [splunk](htt
 **Download the project**
 
 ```sh
-curl -L https://github.com/dkoshkin/fluentd-splunk/archive/v0.1.tar.gz | tar -xz
+curl -L https://github.com/apprenda/fluentd-splunk/archive/v0.1.tar.gz | tar -xz
 ```
 
 **Create `config-map` for `fluentd.conf`**
