@@ -3,9 +3,9 @@ ifeq ($(origin VERSION), undefined)
 endif
 
 build:
-	docker build -t apprenda/fluentd-splunk .
-	docker tag apprenda/fluentd-splunk apprenda/fluentd-splunk:$(VERSION)
+	docker build -t prabhatiitbhu/fluentd-splunk .
+	docker tag prabhatiitbhu/fluentd-splunk prabhatiitbhu/fluentd-splunk:$(VERSION)
 
 push: build
-	docker push apprenda/fluentd-splunk:$(VERSION)
-	docker push apprenda/fluentd-splunk:latest
+	docker push prabhatiitbhu/fluentd-splunk:$(VERSION)
+	docker push prabhatiitbhu/fluentd-splunk:latest
